@@ -1,0 +1,30 @@
+.NavBar {
+  background-color: #de518c;
+  margin: 0;
+  padding: 0.2em;
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+
+    a {
+      margin-right: 1em;
+      text-decoration: none;
+      padding: 0.4em;
+      border-radius: 0.2em;
+      color: white;
+      font-weight: bold;
+      transition: background-color 0.2s ease;
+    }
+
+    a:last-of-type {
+      margin-right: 0;
+    }
+
+    a:hover {
+      background-color: #ec70a0;
+    }
+  }
+}

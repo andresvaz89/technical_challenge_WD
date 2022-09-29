@@ -1,0 +1,14 @@
+.Home {
+  h1 {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 0.6em;
+  }
+
+  .list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+}
